@@ -28,7 +28,7 @@
 	font-family: 'Material Icons';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 48px;  /* Preferred icon size */
+	font-size: 24px;  /* Preferred icon size */
 	display: inline-block;
 	line-height: 1;
 	text-transform: none;
@@ -54,67 +54,25 @@
 	display: inline-block;
 	color: red;
 }
-.emoteGroup {
-	padding-top:10px;
-	padding-left:20px;
-	display: inline-block;
-	margin-right:10px;
-}
-.emote {
-	margin-left:10px;
-	width:50px;
-	height:50px;
-}
-.emote2 {
-	margin-left:20px;
-	width:50px;
-	height:50px;
-}
-.emoteName {
-	margin-top : 5px;
-	width:70px;
-	text-align :center;
-}
-.emoteName2 {
-	margin-top : 5px;
-	width:90px;
-	text-align :center;
-}
 .detailSearch {
 	display: inline-block;
+}
+.searchBox {
+	width: 150px;
+	height: 35px;
+}
+.campSearch {
+ 	height: 35px;
 }
 .allTema {
 	width : 500px;
 	height : 35px;
-}
-.searchDetail2 {
-	padding-left :50px;
 }
 .place {
 	height : 35px;
 }
 .area {
 	height :24px;
-}
-.keyword {
-	height :24px;
-}
-.searchBox {
-	height : 35px;
-	width : 580px;
-}
-.campSearch {
-	margin-left: 0px;
-	padding-left:0px;
-	height : 35px;
-	width: 200px;
-	color:white;
-	background-color:black;
-}
-.pagination {
-	justify-content: center;
-	margin-bottom : 30px;
-	margin-top : 0px;
 }
 
 .tema {
@@ -143,11 +101,11 @@
   }
   .camping {
 	min-height:200px;
-	background-color: rgb(233, 245, 247);
+	background-color: beige;
   }
   .campImg {
-	width: 350px;
-	min-height: 230px;
+	width: 300px;
+	min-height: 200px;
 	object-fit:cover;
   }
   .review {
@@ -163,10 +121,6 @@
 	color:white;
 	display: inline-block;
 	text-align: center;
-  }
-  .material-icons { font-size: 48px; }
-  .material-symbols-outlined {
-	font-size:48;
   }
   .checkTema {
 	width : 115px;
@@ -191,7 +145,7 @@
 	display: inline-block;
   }
   .iconBar {
-	width :750px;
+	width :700px;
 	height: 100px;
 	margin-bottom: 20px;
 	background-color:white;
