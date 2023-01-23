@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap  v5.2.2 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ @font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+ *{
+    font-family: var(--bs-body-font-family);
+}
+
+ .header-transparent {
+    background-size: cover;
+ }
+ .container .nav-item .nav-item #nickname {
+    color :black;
+    font-family: var(--bs-body-font-family);
+}
+.navbar-collapse .navbar-nav .nav-item #listingMenu {
+    color : black;
+    font-weight:bold;
+}
+.nav .nav .nav-item .nav-item #nickname{
+    color : black;
+}

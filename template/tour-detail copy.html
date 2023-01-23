@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Booking - Multipurpose Online Booking Theme</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Booking - Multipurpose Online Booking Theme">
+
+	<!-- Dark mode -->
+	<script type="text/javascript">
+		var theme = localStorage.getItem('data-theme');
+		var root = document.documentElement;
+		if (theme === 'dark' && theme !== undefined) {
+			root.classList.add('dark-mode');
+		} else {
+			root.classList.remove('dark-mode');
+		}
+	</script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/splide-master/dist/css/splide.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/tour-detail copy.css">
+
+</head>
+
+<body>
+
+
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+		<section class="py-0">
+			<div>
+				<img class="col-12 background-size:cover" src="assets/campongimg/campingDetail.png" />
+
+				<div class="container position-relative">
+					<p class="fs-5 mt-3">홈 > 캠핑 > 캠핑장 > 상세</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- =======================
+Main Banner START -->
+		<section class="pt-2 pt-lg-2 mb-0 mt-lg-0">
+
+			<div class="container position-relative">
+
+				<!-- Image gallery START -->
+				<div class="row mt-md-2">
+					<div class="col-12">
+						<!-- Primary image -->
+						<div class="splide splide-main mb-3"
+							data-splide='{"type" : "fade","autoplay": true,"heightRatio":0.5,"pagination":false,"arrows":false,"cover":true,"lazyLoad":"sequential"}'>
+							<div class="splide__track">
+								<ul class="splide__list">
+									<li class="splide__slide rounded"><img src="assets/images/gallery/04.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/04.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/05.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/05.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/03.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/03.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/09.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/09.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/10.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/10.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/06.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/06.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/07.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/07.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+									<li class="splide__slide rounded"><img src="assets/images/gallery/08.jpg" alt="">
+										<!-- Glightbox image -->
+										<a href="assets/images/gallery/08.jpg" class="stretched-link" data-glightbox=""
+											data-gallery="banner"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Secondary image -->
+						<div class="splide splide-thumb"
+							data-splide='{"rewind":true,"fixedWidth":200,"fixedHeight":120,"isNavigation":true,"gap":20,"focus":"center","pagination":false,"cover":true,"lazyLoad":"sequential","breakpoints":{"600":{"fixedWidth":150,"fixedHeight":80}}}'>
+							<div class="splide__track">
+								<ul class="splide__list">
+									<li class="splide__slide"><img src="assets/images/gallery/04.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/05.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/03.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/09.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/10.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/06.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/07.jpg" alt=""></li>
+									<li class="splide__slide"><img src="assets/images/gallery/08.jpg" alt=""></li>
+								</ul>
+							</div>
+							<!-- Arrows -->
+							<div class="splide__arrows">
+								<button
+									class="splide__arrow  splide__arrow--prev p-splide__arrow--prev bg-primary"><span
+										class="spi-angle-left text-white"><i
+											class="fa-solid fa-fw fa-angle-left"></i></span></button>
+								<button class="splide__arrow splide__arrow--next p-splide__arrow--next bg-primary"><span
+										class="spi-angle-right text-white"><i
+											class="fa-solid fa-fw fa-angle-right"></i></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Image gallery END -->
+
+			</div>
+		</section>
+		<!-- =======================
+Main Banner END -->
+		<!-- =======================
+Tabs START -->
+
+		<!--여행지 제목 -->
+		<section class="pt-0">
+			<div class="container">
+				<h3 class="mb-1">장경리해변 야영장</h3>
+				<p class="fw-bold mb-0"><i class="bi bi-geo-alt me-2"></i> 인천광역시 웅진군 영흥면 내리 1626-38
+					<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal"
+						data-bs-target="#mapmodal">
+					</a>
+				</p>
+			</div>
+			<div class="container mt-4 fw-bold">
+				<p>장경리해수욕장은 영흥도의 서쪽자락에 위치하고 있다.</p>
+
+			</div>
+		</section>
+		<!--여행지 제목-->
+
+
+
+		<section class="py-0">
+			<div class="container">
+
+				<!-- Tabs START -->
+				<div class="row">
+					<div class="col-12">
+						<!-- Outer tabs START -->
+						<ul class="nav nav-pills nav-justified nav-responsive bg-info bg-opacity-10 rounded p-2"
+							id="tour-pills-tab" role="tablist">
+							<!-- Tab item -->
+							<li class="nav-item" role="presentation">
+								<button class="nav-link active mb-0" id="tour-pills-tab-1" data-bs-toggle="pill"
+									data-bs-target="#tour-pills-tab1" type="button" role="tab"
+									aria-controls="tour-pills-tab1" aria-selected="true">캠핑장이용안내</button>
+							</li>
+							<!-- Tab item -->
+							<li class="nav-item" role="presentation">
+								<button class="nav-link mb-0" id="tour-pills-tab-2" data-bs-toggle="pill"
+									data-bs-target="#tour-pills-tab2" type="button" role="tab"
+									aria-controls="tour-pills-tab2" aria-selected="false">위치 정보</button>
+							</li>
+							<!-- Tab item -->
+							<li class="nav-item" role="presentation">
+								<button class="nav-link mb-0" id="tour-pills-tab-3" data-bs-toggle="pill"
+									data-bs-target="#tour-pills-tab3" type="button" role="tab"
+									aria-controls="tour-pills-tab3" aria-selected="false">여행 후기</button>
+							</li>
+
+						</ul>
+
+						<!-- Outer tabs END -->
+					</div>
+					<div class="mt-2">
+						<hr style="border: solid 1px black;">
+					</div>
+				</div>
+				<!-- Tabs END -->
+			</div>
+		</section>
+		<!-- =======================
+Tabs END -->
+
+		<!-- =======================
+Tabs-content START -->
+		<section class="pt-4 pt-md-5">
+			<div class="container">
+
+				<div class="row g-4 g-md-5">
+					<!-- Tabs Content START -->
+					<div class="col-xl-7">
+						<!-- Outer tabs contents START -->
+						<div class="tab-content mb-0" id="tour-pills-tabContent">
+
+							<!-- Content item START -->
+							<div class="tab-pane fade show active" id="tour-pills-tab1" role="tabpanel"
+								aria-labelledby="tour-pills-tab-1">
+								<div class="card bg-transparent p-0">
+									<!-- Card header -->
+									<div class="card-header bg-transparent p-0 pb-3">
+										<div>
+											<h3 class="mb-0 line">캠핑장 안내</h3>
+										</div>
+										<div class="row">
+											<!-- List -->
+											<div class="col-3">
+												<ul class="list-group list-group-borderless mb-4">
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">문의처</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">캠핑장 환경</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">캠핑장 유형</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">운영시간</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">예약방법</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">주변이용가능시설</span>
+													</li>
+												</ul>
+											</div>
+											<div class="col-9">
+												<ul class="list-group list-group-borderless mb-4">
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">032-880-0450</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">해변/지자체</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">일반야영장</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">평일+주말</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">온라인 실시간 예약</span>
+													</li>
+													<li class="list-group-item">
+														<span class="h6 mb-0 me-1">수상레저, 해수욕</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<div class="row g-4">
+							<!-- Book now item START -->
+
+
+
+
+
+
+						</div>
+					</div>
+					<!-- Book now item END -->
+
+					<!-- Help item START -->
+					<div class="col-md-6 col-xl-12">
+						<div class="card card-body bg-light p-4">
+							<!-- Title -->
+
+						</div>
+					</div>
+					<!-- Help item END -->
+				</div>
+			</div>
+			<!-- Right side content END -->
+
+
+
+			<!-- Content item END -->
+
+			<!-- Content item START -->
+			<div class="tab-pane fade" id="tour-pills-tab2" role="tabpanel" aria-labelledby="tour-pills-tab-2">
+				<div class="card bg-transparent p-0">
+					<!-- Card header -->
+					<div class="card-header bg-transparent border-bottom p-0 pb-3">
+						<h3 class="mb-0">Itinerary</h3>
+					</div>
+
+
+					<!-- Card body END -->
+				</div>
+			</div>
+			<!-- Content item END -->
+
+			<!-- Content item START -->
+			<div class="tab-pane fade" id="tour-pills-tab3" role="tabpanel" aria-labelledby="tour-pills-tab-3">
+				<div class="card bg-transparent p-0">
+					<!-- Card header -->
+					<div class="card-header bg-transparent border-bottom p-0 pb-3">
+						<h3 class="mb-0">Inclusions & Exclusions</h3>
+					</div>
+
+					<!-- Card body START -->
+					<div class="card-body p-0 pt-3">
+						<!-- List -->
+						<h5>Inclusion</h5>
+						<ul class="list-group list-group-borderless mb-3">
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">Comfortable stay for 4 nights in your preferred category
+									Hotels</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">Professional English speaking guide to help you explore
+									the cities</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal"> Breakfast is included as mentioned in Itinerary.</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">Per Peron rate on twin sharing basis</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">Entrance Tickets to Genting Indoor Theme Park</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">All Tours & Transfers on Seat In Coach Basis</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-check text-success me-2"></i>
+								<span class="h6 fw-normal">Visit Bali Safari & Marine Park with Jungle Hopper
+									Pass</span>
+							</li>
+						</ul>
+
+						<!-- List -->
+						<h5>Exclusion</h5>
+						<ul class="list-group list-group-borderless mb-3">
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Lunch and dinner are not included in CP plans</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Any other services not specifically mentioned in the
+									inclusions</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Medical and Travel insurance</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Airfare is not included</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Early Check-In & Late Check-Out</span>
+							</li>
+							<li class="list-group-item d-flex mb-0"><i class="fa-solid fa-times text-danger me-2"></i>
+								<span class="h6 fw-normal">Anything which is not specified in Inclusions</span>
+							</li>
+						</ul>
+					</div>
+					<!-- Card body END -->
+				</div>
+			</div>
+			<!-- Content item END -->
+
+			<!-- Content item START -->
+			<div class="tab-pane fade" id="tour-pills-tab4" role="tabpanel" aria-labelledby="tour-pills-tab-4">
+				<div class="card bg-transparent p-0">
+					<!-- Card header -->
+					<div class="card-header bg-transparent border-bottom p-0 pb-3">
+						<h3 class="mb-0">Tour Policy</h3>
+					</div>
+
+					<!-- Card body START -->
+					<div class="card-body p-0 pt-3">
+						<h5>Confirmation Policy:</h5>
+						<p class="mb-2">The customer receives a confirmation voucher via email within 24 hours of
+							successful booking.</p>
+						<p class="mb-2">In case the preferred slots are unavailable, an alternate schedule of the
+							customer’s preference will be arranged and a new confirmation voucher will be sent via
+							email.</p>
+						<p class="mb-0">Alternatively, the customer may choose to cancel their booking before
+							confirmation and a full refund will be processed.</p>
+
+						<!-- List -->
+						<h5 class="mt-4">Cancellation Policy:</h5>
+						<ul class="list-group list-group-borderless">
+							<li class="list-group-item">
+								<span class="h6 fw-normal me-1 mb-0"><i class="bi bi-dot"></i>10 days:</span>
+								<span>100%</span>
+							</li>
+							<li class="list-group-item">
+								<span class="h6 fw-normal me-1 mb-0"><i class="bi bi-dot"></i>10 to 15 days:</span>
+								<span>75% + Non Refundable Component</span>
+							</li>
+							<li class="list-group-item">
+								<span class="h6 fw-normal me-1 mb-0"><i class="bi bi-dot"></i>15 to 30 days:</span>
+								<span>30% + Non Refundable Component</span>
+							</li>
+							<li class="list-group-item">
+								<span class="h6 fw-normal me-1 mb-0"><i class="bi bi-dot"></i>10Hotel / Air:</span>
+								<span>100% in case of non-refundable ticket / Hotel Room</span>
+							</li>
+							<li class="list-group-item">
+								<span class="h6 fw-normal me-1 mb-0"><i class="bi bi-dot"></i>10Cruise /
+									Visa:</span>
+								<span>On Actuals</span>
+							</li>
+						</ul>
+
+						<p class="mt-2">All Prices are in Indian Rupees and subject to change without prior
+							notice.<br>In the case FIT flight inclusive package, the full amount of the flight will
+							be payable at the time of booking.</p>
+
+						<h5 class="mt-4">Refund Policy:</h5>
+						<p class="mb-2">The applicable refund amount will be processed within 10 business days.</p>
+						<p class="mb-0">All applicable refunds will be done in the traveler's Thrillophilia wallet
+							as Thrillcash.</p>
+					</div>
+					<!-- Card body END -->
+				</div>
+			</div>
+			<!-- Content item END -->
+
+			</div>
+			</div>
+			<!-- Tabs Content END -->
+
+			<!-- Right side content START -->
+
+			</div> <!-- Row END -->
+			</div>
+		</section>
+		<!-- =======================
+Tabs-content END -->
+
+
+
+
+
+
+
+	</main>
+	<!-- **************** MAIN CONTENT END **************** -->
+
+	<!-- =======================
+Footer START -->
+	<footer class="bg-dark pt-5">
+		<div class="container">
+			<!-- Row START -->
+			<div class="row g-4">
+
+				<!-- Widget 1 START -->
+				<div class="col-lg-3">
+					<!-- logo -->
+					<a href="index.html">
+						<img class="h-40px" src="assets/images/logo-light.svg" alt="logo">
+					</a>
+					<p class="my-3 text-muted">Departure defective arranging rapturous did believe him all had
+						supported.</p>
+					<p class="mb-2"><a href="#" class="text-muted text-primary-hover"><i
+								class="bi bi-telephone me-2"></i>+1234 568 963</a> </p>
+					<p class="mb-0"><a href="#" class="text-muted text-primary-hover"><i
+								class="bi bi-envelope me-2"></i>example@gmail.com</a></p>
+				</div>
+				<!-- Widget 1 END -->
+
+				<!-- Widget 2 START -->
+				<div class="col-lg-8 ms-auto">
+					<div class="row g-4">
+						<!-- Link block -->
+						<div class="col-6 col-md-3">
+							<h5 class="text-white mb-2 mb-md-4">Page</h5>
+							<ul class="nav flex-column text-primary-hover">
+								<li class="nav-item"><a class="nav-link text-muted" href="#">About us</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Contact us</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">News and Blog</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Meet a Team</a></li>
+							</ul>
+						</div>
+
+						<!-- Link block -->
+						<div class="col-6 col-md-3">
+							<h5 class="text-white mb-2 mb-md-4">Link</h5>
+							<ul class="nav flex-column text-primary-hover">
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Sign up</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Sign in</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Privacy Policy</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Terms</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Cookie</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Support</a></li>
+							</ul>
+						</div>
+
+						<!-- Link block -->
+						<div class="col-6 col-md-3">
+							<h5 class="text-white mb-2 mb-md-4">Global Site</h5>
+							<ul class="nav flex-column text-primary-hover">
+								<li class="nav-item"><a class="nav-link text-muted" href="#">India</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">California</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Indonesia</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Canada</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#">Malaysia</a></li>
+							</ul>
+						</div>
+
+						<!-- Link block -->
+						<div class="col-6 col-md-3">
+							<h5 class="text-white mb-2 mb-md-4">Booking</h5>
+							<ul class="nav flex-column text-primary-hover">
+								<li class="nav-item"><a class="nav-link text-muted" href="#"><i
+											class="fa-solid fa-hotel me-2"></i>Hotel</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#"><i
+											class="fa-solid fa-plane me-2"></i>Flight</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#"><i
+											class="fa-solid fa-globe-americas me-2"></i>Tour</a></li>
+								<li class="nav-item"><a class="nav-link text-muted" href="#"><i
+											class="fa-solid fa-car me-2"></i>Cabs</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Widget 2 END -->
+
+			</div><!-- Row END -->
+
+			<!-- Tops Links -->
+			<div class="row mt-5">
+				<h5 class="mb-2 text-white">Top Links</h5>
+				<ul class="list-inline text-primary-hover lh-lg">
+					<li class="list-inline-item"><a href="#" class="text-muted">Flights</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Hotels</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Tours</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Cabs</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">About</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Contact us</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Blogs</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Services</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Detail page</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Services</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Policy</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Testimonials</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Newsletters</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Podcasts</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Protests</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">NewsCyber</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Education</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Sports</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Tech and Auto</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Opinion</a></li>
+					<li class="list-inline-item"><a href="#" class="text-muted">Share Market</a></li>
+				</ul>
+			</div>
+
+			<!-- Payment and card -->
+			<div class="row g-4 justify-content-between mt-0 mt-md-2">
+
+				<!-- Payment card -->
+				<div class="col-sm-7 col-md-6 col-lg-4">
+					<h5 class="text-white mb-2">Payment & Security</h5>
+					<ul class="list-inline mb-0 mt-3">
+						<li class="list-inline-item"> <a href="#"><img src="assets/images/element/paypal.svg"
+									class="h-30px" alt=""></a></li>
+						<li class="list-inline-item"> <a href="#"><img src="assets/images/element/visa.svg"
+									class="h-30px" alt=""></a></li>
+						<li class="list-inline-item"> <a href="#"><img src="assets/images/element/mastercard.svg"
+									class="h-30px" alt=""></a></li>
+						<li class="list-inline-item"> <a href="#"><img src="assets/images/element/expresscard.svg"
+									class="h-30px" alt=""></a></li>
+					</ul>
+				</div>
+
+				<!-- Social media icon -->
+				<div class="col-sm-5 col-md-6 col-lg-3 text-sm-end">
+					<h5 class="text-white mb-2">Follow us on</h5>
+					<ul class="list-inline mb-0 mt-3">
+						<li class="list-inline-item"> <a class="btn btn-sm px-2 bg-facebook mb-0" href="#"><i
+									class="fab fa-fw fa-facebook-f"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-instagram mb-0" href="#"><i
+									class="fab fa-fw fa-instagram"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-twitter mb-0" href="#"><i
+									class="fab fa-fw fa-twitter"></i></a> </li>
+						<li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-linkedin mb-0" href="#"><i
+									class="fab fa-fw fa-linkedin-in"></i></a> </li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Divider -->
+			<hr class="mt-4 mb-0">
+
+			<!-- Bottom footer -->
+			<div class="row">
+				<div class="container">
+					<div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start">
+						<!-- copyright text -->
+						<div class="text-muted text-primary-hover"> Copyrights <a href="#" class="text-muted">©2022
+								Booking</a>. All rights reserved. </div>
+						<!-- copyright links-->
+						<div class="nav mt-2 mt-lg-0">
+							<ul class="list-inline text-primary-hover mx-auto mb-0">
+								<li class="list-inline-item me-0"><a class="nav-link py-1 text-muted" href="#">Privacy
+										policy</a></li>
+								<li class="list-inline-item me-0"><a class="nav-link py-1 text-muted" href="#">Terms and
+										conditions</a></li>
+								<li class="list-inline-item me-0"><a class="nav-link py-1 text-muted pe-0"
+										href="#">Refund policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- =======================
+Footer END -->
+
+	<!-- Send Inquiry START -->
+	<div class="modal fade" id="inquiryForm" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Title -->
+				<div class="modal-header">
+					<h5 class="modal-title" id="inquiryFormlabel">Get Inquiry</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+
+				<!-- Body -->
+				<div class="modal-body p-3">
+					<div class="card bg-transparent">
+						<!-- Card header -->
+						<div class="card-header bg-transparent">
+							<!-- Title -->
+							<h6 class="card-title mb-0">Our expert will get in touch with you shortly</h6>
+						</div>
+
+						<!-- Card body -->
+						<div class="card-body pt-0">
+
+							<form>
+								<!-- Name -->
+								<div class="mb-3">
+									<label class="form-label">Name</label>
+									<input type="text" class="form-control" placeholder="Enter Your name">
+								</div>
+								<!-- Email -->
+								<div class="mb-3">
+									<label class="form-label">Email id</label>
+									<input type="email" class="form-control" placeholder="Enter Your emil id">
+								</div>
+								<!-- Phone number -->
+								<div class="mb-3">
+									<label class="form-label">Phone number</label>
+									<input type="text" class="form-control" placeholder="Enter Your phone number">
+								</div>
+
+								<div class="mb-3 ms-2 form-check">
+									<input type="checkbox" class="form-check-input" id="inquiryCheck">
+									<label class="form-check-label" for="inquiryCheck">I agree to receive updates and
+										offers</label>
+								</div>
+
+								<!-- Buttons -->
+								<div class="d-grid gap-2 d-md-block">
+									<button class="btn btn-dark mb-0" type="button">Send Inquiry</button>
+									<button class="btn btn-link mb-0" type="button">Call on: +123 456 89</button>
+								</div>
+							</form> <!-- Form END -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Send Inquiry END -->
+
+	<!-- Back to top -->
+	<div class="back-top"></div>
+
+	<!-- Bootstrap JS -->
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendors -->
+	<script src="assets/vendor/splide-master/dist/js/splide.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+
+	<!-- ThemeFunctions -->
+	<script src="assets/js/functions.js"></script>
+
+</body>
+
+</html>
