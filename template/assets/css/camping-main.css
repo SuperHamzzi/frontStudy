@@ -10,7 +10,7 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+}
   /* 구글 아이콘 */
   @font-face {
 	font-family: 'Material Icons';
@@ -23,7 +23,9 @@
 	  url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
 	  url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
   }
-  
+  * {
+	font-family: 'SUIT-Regular';
+  }
   .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
@@ -91,6 +93,7 @@
 	padding-left :50px;
 }
 .place {
+	width : 220px;
 	height : 35px;
 }
 .area {
