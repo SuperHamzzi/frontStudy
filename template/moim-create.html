@@ -27,7 +27,8 @@
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet"	href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap">
 
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
@@ -37,12 +38,12 @@
 
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/camping-main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/moim-create.css">
 	<!--구글 폰트-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+		
+			
 
 </head>
 
@@ -163,366 +164,111 @@
 		</section>
 
 
-		<!-- 상세검색 시작-->
+		<!-- -->
 		<section class="pt-2 pt-lg-2 mb-0 mt-lg-0">
-			
-			<!-- 키워드검색 시작-->
-			<div class="container position-relative" style="background-color:rgb(238, 240, 240)">
-				<div class="searchDeatil2 row mt-4">
+			<div class="container position-relative">
+				<div class="row mt-4">
 					<div class="col-12 mt-3 border-bottom">
-						<h5 class="detailSearchIcon">◎</h5>
-						<h5 class="detailSearch fw-bold">상세검색</h5>
+						<h5 class="detailCamp">캠핑모집 </h5><h5 class="detailSearch"> 등록</h5>
 					</div>
-					<div class="area col-5 mt-1 fw-bold">
-						<p>지역</p>
+					<!--제목 시작-->
+					<div class="area col-1 mt-1 pt-1 border-bottom">
+						<p>제목</p>
 					</div>
-					<div class="tema col-7 mt-1 mb-0 fw-bold">
-						<p>테마</p>
-					</div >
-					<div class="col-5 mt-0">
-						<input class="place mt-0" type="text" placeholder=" 전체" />
-						<input class="place mt-0" type="text" placeholder=" 전체" />
+					<div class="tema col-11 mt-1 mb-0 border-bottom pt-1">
+						<input class="party-title" type="text" />
+					</div > 
+					<!--제목 끝-->
+					<!--모집인원 시작-->
+					<div class="col-1 mt-1 pt-2 border-bottom">
+						<p>모집인원</p>
 					</div>
-					<div class="col-7">
-						<input class="allTema" type="text" placeholder=" 전체테마" />
+					<div class="col-11 mt-1 border-bottom">
+						<select class="select mt-1">
+							<option>본인제외</option>
+							<option value="a">0명</option>
+							<option value="b">1명</option>
+							<option value="c">3명</option>
+							<option value="c">4명</option>
+							<option value="c">5명</option>
+							<option value="c">6명</option>
+							<option value="c">7명</option>
+							<option value="c">8명</option>
+							<option value="c">9명</option>
+							<option value="c">10명</option>
+						</select>
 					</div>
-					<div class="keyword col-12 mt-4 mb-0 fw-bold">
-						<p>키워드검색</p>
+					<!--모집인원 끝-->
+					<!--모집나이 시작-->
+					<div class="col-1 mt-1 pt-2 border-bottom">
+						<p>모집나이</p>
 					</div>
-					<div class="search col-6 mt-0 pt-0 mb-3">
-						<input class="searchBox" type="text" placeholder=" 검색어를 입력하세요." />
+					<div class="col-11 mt-1 border-bottom">
+						<select class="select mt-1">
+							<option>10대</option>
+							<option value="a">20대</option>
+							<option value="b">30대</option>
+							<option value="c">40대</option>
+							<option value="c">50대</option>
+							<option value="c">60대</option>
+							<option value="c">70대</option>
+							<option value="c">나이무관</option>
+						</select>
 					</div>
-					<div class="col-6">
-						<input class="campSearch" type="submit" value="캠핑장 검색 +" ></input>
+					<!--모집나이 끝-->
+					<!--연락처 시작-->
+					<div class="col-1 mt-1 pt-2 border-bottom">
+						<p>연락처</p>
 					</div>
+					<div class="col-11 mt-1 border-bottom">
+						<input class="contact mt-1" type="text" placeholder="010-xxxx-xxxx"/>
+					</div>
+					<!--연락처 끝-->
+					<!--모집 기간 시작 -->
+					<div class="col-1 mt-1 pt-2 border-bottom">
+						<p>모집 기간</p>
+					</div>
+					<div class="col-11 mt-1 border-bottom">
+						<input class="contact mt-1" type="text" placeholder="2023년1월30일"/>
+						<span>까지</span>
+					</div>
+					<!--모집 기간 끝-->
+					<!--예상 경비 시작 -->
+					<div class="col-1 mt-1 pt-2 border-bottom">
+						<p>예상 경비</p>
+					</div>
+					<div class="col-11 mt-1 border-bottom">
+						<input class="ExpenseStart mt-1" type="text" placeholder="20000"/> ~
+						<input class="ExpenseEnd mt-1" type="text" placeholder="100000"/>
+						<span>원</span>
+					</div>
+					<!--예상 금액 끝-->
+					<!--공지 사항 입력 시작 -->
+					<div class="col-1 mt-1 pt-2 ">
+						<p>세부 내용</p>
+					</div>
+					<div class="col-11 mt-1 ">
+						<textarea class="sebu" rows="10" cols="130"></textarea>
+						<div>* 개인 연락처 또는 개인간 거래 행위는 불법으로 간주합니다<br>
+						* 작성된 정보는 캠퐁에 수집되며 진행 중인 모임에 문제가 발생한 경우에 해결을 위해 활용 될 수 있습니다.</div>
+						<div class="precautions"">* 허위 정보를 작성시 제한 또는 정지 조치를 받을 수 있습니다.</div>
+					</div>
+				
 				</div>
-				<div class="row">
-
+				<div class="registration">
+					<a href="#" type="button" class="goList">목록</a>
+					<input type="submit" href="#" class="goSubmit" value="등록"></input>
 				</div>
 			</div>
-			<!-- 키워드검색 끝 -->
+			<div>
+				<button>
 
-			<!-- 체크박스 시작 -->
-			<div class="container position-relative border">
-				<div class="row">
-					<div class="col-1 pt-lg-2 border-bottom fw-bold">
-						<p class="">테마별</p>
-					</div>
-					<div class="col-11 pt-2 border-bottom">
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">일출명소</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">일몰명소</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">수상레저</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">항공레저</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">스키</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">낚시</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">엑티비티</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">봄꽃여행</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">여름물놀이</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">가을단풍명소</span>
-						<br>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">겨울눈꽃명소</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">걷기길</span>
-					</div>
-					<div class="col-1 pt-lg-2 border-bottom fw-bold">
-						<p>부대시설</p>
-					</div>
-					<div class="col-11 pt-2 border-bottom">
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">전기</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">무선인터넷</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">장작판매</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">온수</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">트렘폴린</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">물놀이장</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">놀이터</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">산책로</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">운동장</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">운동시설</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">마트,편의점</span>
-					</div>
-					<div class="col-1 pt-lg-2 border-bottom fw-bold">
-						<p class="">기타정보</p>
-					</div>
-					<div class="col-11 pt-2 border-bottom">
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">개인 트레일러 입장가능</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">개인 캠핑카 입장가능</span>
-						<input type="checkbox" name="checkedTema" /> <span class="me-3">반려 동물 동반가능</span>
-						<br />
-						<p>(※ 실제 결과는 현장사정 및 계절에 따라 달라질수 있으니 캠핑장 사업주에 직접 확인 후 이용바랍니다)</p>
-					</div>
-				</div>
+				</button>
 			</div>
-			<!-- 체크 박스 끝 -->
+
 		</section>
-		<!-- =======================
-Main Banner END -->
-		<!-- =======================
-Tabs START -->
 
-		<!--여행지 제목 -->
-		<section class="pt-0">
-			<div class="container">
-				<div class="row">
-					<div class="col-4">
-						<div class="mb-1 ">총 <span class="campNum">3348</span>개의 캠핑장이 검색되었습니다.</div>
-					</div>
-					<div class="col-8 text-lg-end">
-						<btn class= "text-secondary">최신순</btn>
-					</div>
-				</div>
-			</div>
-			
-			<div class="container">
-				<div class="camping">
-					<!--캠핑 아이템1-->
-					<div class="camping row border-bottom">
-						<div class="col-4 mt-4 mb-3">
-							<img class="campImg" src="assets/campongimg/cloud.png">
-						</div>
-						<div class="col-8 mt-4">
-							<div class="review">리뷰수0</div>
-							<div class="views">조회수0</div>
-							<div class="recommend">추천수0</div>
-							<!--지역과 업체제목-->
-							<div class="areaCampname">
-							<div class="area"><a>[경기도 가평군]</a></div>
-							<div class="campName"><a>[트라움 풀 빌라 글램핑&카라반]</a></div>
-							</div>
-							<!--지역과 업체제목끝-->
-							<!--짧은내용-->
-							<div>북한강변 20개 사이트,애견 동반,천연잔디,파쇄석,마사토, 계단식 프라이빗 캠핑장</div>
-							<!--짧은내용-->
-							<p class="fw-bold mt-3"><i class="bi bi-geo-alt me-2"></i> 경기 포천시 이동면 놈바위길 201-3
-								<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#mapmodal">
-								</a>
-							</p>
-							<div class="iconBar">
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/electronic.png"/>
-									<div class="emoteName">전기</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/firewood.png"/>
-									<div class="emoteName">장작판매</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/onsu.png"/>
-									<div class="emoteName">온수</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/swim.png"/>
-									<div class="emoteName">물놀이장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote2" src="assets/campongimg/mart.png"/>
-									<div class="emoteName2">마트,편의점</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--캠핑 아이템1끝-->
-					<!--캠핑 아이템1-->
-					<div class="camping row border-bottom">
-						<div class="col-4 mt-4 mb-3">
-							<img class="campImg" src="assets/campongimg/cloud.png">
-						</div>
-						<div class="col-8 mt-4">
-							<div class="review">리뷰수0</div>
-							<div class="views">조회수0</div>
-							<div class="recommend">추천수0</div>
-							<div class="areaCampname">
-							<div class="area"><a>[경기도 가평군]</a></div>
-							<div class="campName"><a>[트라움 풀 빌라 글램핑&카라반]</a></div>
-							</div>
-							<p class="fw-bold mt-3"><i class="bi bi-geo-alt me-2"></i> 경기 포천시 이동면 놈바위길 201-3
-								<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#mapmodal">
-								</a>
-							</p>
-							<div class="iconBar">
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/electronic.png"/>
-									<div class="emoteName">전기</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/firewood.png"/>
-									<div class="emoteName">장작판매</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/onsu.png"/>
-									<div class="emoteName">온수</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/swim.png"/>
-									<div class="emoteName">물놀이장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote2" src="assets/campongimg/mart.png"/>
-									<div class="emoteName2">마트,편의점</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--캠핑 아이템1끝-->
-					<!--캠핑 아이템1-->
-					<div class="camping row border-bottom">
-						<div class="col-4 mt-4 mb-3">
-							<img class="campImg" src="assets/campongimg/cloud.png">
-						</div>
-						<div class="col-8 mt-4">
-							<div class="review">리뷰수0</div>
-							<div class="views">조회수0</div>
-							<div class="recommend">추천수0</div>
-							<div class="areaCampname">
-							<div class="area"><a>[경기도 가평군]</a></div>
-							<div class="campName"><a>[트라움 풀 빌라 글램핑&카라반]</a></div>
-							</div>
-							<p class="fw-bold mt-3"><i class="bi bi-geo-alt me-2"></i> 경기 포천시 이동면 놈바위길 201-3
-								<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#mapmodal">
-								</a>
-							</p>
-							<div class="iconBar">
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/electronic.png"/>
-									<div class="emoteName">전기</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/firewood.png"/>
-									<div class="emoteName">장작판매</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/onsu.png"/>
-									<div class="emoteName">온수</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/swim.png"/>
-									<div class="emoteName">물놀이장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote2" src="assets/campongimg/mart.png"/>
-									<div class="emoteName2">마트,편의점</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--캠핑 아이템1끝-->
-					<!--캠핑 아이템1-->
-					<div class="camping row border-bottom">
-						<div class="col-4 mt-4 mb-3">
-							<img class="campImg" src="assets/campongimg/cloud.png">
-						</div>
-						<div class="col-8 mt-4">
-							<div class="review">리뷰수0</div>
-							<div class="views">조회수0</div>
-							<div class="recommend">추천수0</div>
-							<div class="areaCampname">
-							<div class="area"><a>[경기도 가평군]</a></div>
-							<div class="campName"><a>[트라움 풀 빌라 글램핑&카라반]</a></div>
-							</div>
-							<p class="fw-bold mt-3"><i class="bi bi-geo-alt me-2"></i> 경기 포천시 이동면 놈바위길 201-3
-								<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#mapmodal">
-								</a>
-							</p>
-							<div class="iconBar">
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/electronic.png"/>
-									<div class="emoteName">전기</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/firewood.png"/>
-									<div class="emoteName">장작판매</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/onsu.png"/>
-									<div class="emoteName">온수</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/swim.png"/>
-									<div class="emoteName">물놀이장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote2" src="assets/campongimg/mart.png"/>
-									<div class="emoteName2">마트,편의점</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--캠핑 아이템1끝-->
-					<!--캠핑 아이템1-->
-					<div class="camping row border-bottom">
-						<div class="col-4 mt-4 mb-3">
-							<img class="campImg" src="assets/campongimg/cloud.png">
-						</div>
-						<div class="col-8 mt-4">
-							<div class="review">리뷰수0</div>
-							<div class="views">조회수0</div>
-							<div class="recommend">추천수0</div>
-							<div class="areaCampname">
-							<div class="area"><a>[경기도 가평군]</a></div>
-							<div class="campName"><a>[트라움 풀 빌라 글램핑&카라반]</a></div>
-							</div>
-							<p class="fw-bold mt-3"><i class="bi bi-geo-alt me-2"></i> 경기 포천시 이동면 놈바위길 201-3
-								<a href="#" class="ms-2 text-decoration-underline" data-bs-toggle="modal" data-bs-target="#mapmodal">
-								</a>
-							</p>
-							<div class="iconBar">
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/electronic.png"/>
-									<div class="emoteName">전기</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/firewood.png"/>
-									<div class="emoteName">장작판매</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/onsu.png"/>
-									<div class="emoteName">온수</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/swim.png"/>
-									<div class="emoteName">물놀이장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/tree.png"/>
-									<div class="emoteName">산책로</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote" src="assets/campongimg/playground.png"/>
-									<div class="emoteName">운동장</div>
-								</div>
-								<div class="emoteGroup">
-									<img class="emote2" src="assets/campongimg/mart.png"/>
-									<div class="emoteName2">마트,편의점</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--캠핑 아이템1끝-->
-					
-				</div>
-			</div>
-		</section>
-		<!--페이지-->
-		<div class="pagination">
-			<nav class="mt-1" aria-label="navigation">
-				<ul class="pagination pagination-primary-soft rounded">
-					<li class="page-item"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a></li>
-					<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
-					<li class="page-item"><a class="page-link" href="#">1</a></li>
-					<li class="page-item active"><a class="page-link" href="#">2</a></li>
-					<li class="page-item"><a class="page-link" href="#">3</a></li>
-					<li class="page-item"><a class="page-link" href="#">4</a></li>
-					<li class="page-item"><a class="page-link" href="#">5</a></li>
-					<li class="page-item"><a class="page-link" href="#">6</a></li>
-					<li class="page-item"><a class="page-link" href="#">7</a></li>
-					<li class="page-item"><a class="page-link" href="#">8</a></li>
-					<li class="page-item"><a class="page-link" href="#">9</a></li>
-					<li class="page-item"><a class="page-link" href="#">10</a></li>
-					<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
-					<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
-				</ul>
-			</nav>
-		</div>
-		<!--페이지끝-->
-		
+
 
 
 
@@ -530,10 +276,7 @@ Tabs START -->
 
 		
 
-
-
-
-
+		
 
 	</main>
 	<!-- **************** MAIN CONTENT END **************** -->

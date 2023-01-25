@@ -1,0 +1,58 @@
+.area {
+    display:inline-block;
+}
+.party-title {
+    width: 500px;
+    background-color: #f9f9f9;
+}
+.detailCamp {
+    color:#7e69fe;
+    display:inline-block;
+}
+.detailSearch {
+    display:inline-block;
+    margin-left:10px;
+}
+.select {
+    width: 200px;
+    height: 30px;
+    background-color: #f9f9f9;
+}
+.contact {
+    background-color: #f9f9f9;
+}
+.ExpenseStart {
+    
+    background-color: #f9f9f9;
+}
+.ExpenseEnd {
+    
+    background-color: #f9f9f9;
+}  
+.precautions {
+    color: red;
+}
+.sebu {
+    
+    background-color: #f9f9f9;
+}
+.registration {
+    margin-top:20px;
+    text-align: center;
+}
+.goList {
+    width:240px;
+    height:70px;
+    border:1px solid#7e69fe;
+    line-height: 70px;
+    border-radius:5px;
+}
+.goSubmit {
+    background-color:#7e69fe;
+    color:white;
+    width:240px;
+    height:70px;
+    border:1px solid#7e69fe;
+    line-height: 70px;
+    border-radius:5px;
+}

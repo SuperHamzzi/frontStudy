@@ -1,0 +1,52 @@
+.mozib {
+    font-size:26px;
+    color:black;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.group-items {
+    margin-bottom:20px;
+    border-radius:10px;
+    height: 230px;
+    border:1px solid rgb(190, 152, 152);
+}
+.item-content {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.item-name {
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+.peopleimg {
+    width: 25px;
+    height: 40px;
+    object-fit:cover;
+}
+.item-date {
+    font-size:14px;
+}
+.campMain {
+    height:500px;
+    object-fit:cover;
+}
+.moim-cre{
+    margin-top:10px;
+}
+.moim-create {
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    border: solid 1px rgb(20, 108, 223);
+}
+.moim-create2 {
+    margin-left:13px;
+    justify-content: center;
+}
+.pagination {
+    justify-content: center;
+}
+.header-transparent {
+    position:
+}
