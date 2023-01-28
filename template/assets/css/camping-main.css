@@ -58,11 +58,11 @@
 }
 .header-transparent {
 	position: fixed;
-	background-color:black;
+    background-color:rgba(0,0,0,0.5);
 }
 .emoteGroup {
 	padding-top:10px;
-	padding-left:20px;
+	padding-left:0px;
 	display: inline-block;
 	margin-right:10px;
 }
@@ -123,9 +123,21 @@
 	margin-bottom : 30px;
 	margin-top : 0px;
 }
+.select {
+	width:150px;
+	height:35px;
+}
+.good {
+	width:150px;
+	height:35px;
+}
+
 
 .tema {
 	height :24px;
+}
+main {
+	margin-top: 0px;
 }
   .line {
 	display:flex;
@@ -150,7 +162,6 @@
   }
   .camping {
 	min-height:200px;
-	background-color: rgb(233, 245, 247);
   }
   .campImg {
 	width: 350px;
@@ -198,9 +209,10 @@
 	display: inline-block;
   }
   .iconBar {
-	width :750px;
+	width :740px;
 	min-height: 100px;
 	margin-bottom: 20px;
-	background-color:white;
+	
+	background-color: rgb(228, 243, 228);
 	position:relative;
   }

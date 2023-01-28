@@ -1,8 +1,12 @@
+main {
+    padding-top:58px;
+}
 .area {
     display:inline-block;
 }
 .party-title {
     width: 500px;
+    border:1px solid gray;
     background-color: #f9f9f9;
 }
 .detailCamp {
@@ -16,17 +20,23 @@
 .select {
     width: 200px;
     height: 30px;
+    
+    border:1px solid gray;
     background-color: #f9f9f9;
 }
 .contact {
+    
+    border:1px solid gray;
     background-color: #f9f9f9;
 }
 .ExpenseStart {
     
+    border:1px solid gray;
     background-color: #f9f9f9;
 }
 .ExpenseEnd {
     
+    border:1px solid gray;
     background-color: #f9f9f9;
 }  
 .precautions {
@@ -55,4 +65,9 @@
     border:1px solid#7e69fe;
     line-height: 70px;
     border-radius:5px;
+}
+.header-transparent {
+    position: fixed;
+    background-color:#7e69fe;
+    color: white;
 }

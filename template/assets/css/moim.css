@@ -31,13 +31,14 @@
     height:500px;
     object-fit:cover;
 }
-.moim-cre{
-    margin-top:10px;
-}
 .moim-create {
-    background-color:white;
-    color: black;
-    border-radius: 20px;
+    background-color:rgb(20, 108, 223);
+    border-radius: 10px;
+    width:130px;
+    height:40px;
+    line-height: 40px;
+    margin-left:50px;
+    text-align: center;
     border: solid 1px rgb(20, 108, 223);
 }
 .moim-create2 {
