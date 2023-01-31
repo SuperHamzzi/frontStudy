@@ -34,16 +34,16 @@
 
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/sign-up.css">
 
 </head>
 
 <body>
 
-<!-- **************** MAIN CONTENT START **************** -->
+<!--메인 시작-->
 <main>
 	
-<!-- =======================
-Main Content START -->
+<!-- 메인 섹션 시작 -->
 <section class="vh-xxl-100">
 	<div class="container h-100 d-flex px-0 px-sm-4">
 		<div class="row justify-content-center align-items-center m-auto">
@@ -52,58 +52,121 @@ Main Content START -->
 					<div class="row g-0">
 						<div class="col-lg-12 order-1">
 							<div class="p-4 p-sm-6">
-								<!-- Logo -->
+								<!-- 로고 -->
 								<a href="index.html">
-									<img class="h-50px mb-4" src="assets/images/logo-icon.svg" alt="logo">
+									<img class="h-50px mb-4" src="assets/campongimg/campong.png" alt="logo">
 								</a>
-								<!-- Title -->
+								<!-- 로고 끝-->
+	
 								<h1 class="login-title mb-2 h3">회원가입</h1>
-								<p class="mb-0">Already a member?<a href="sign-in.html"> Log in</a></p>
-		
-								<!-- Form START -->
-								<form class="mt-4 text-start">
-									<!-- Email -->
+								<!--로그인 하러가기-->
+								<p class="login mb-0">아이디가 있나요?<a href="sign-in.html"> 로그인</a></p>
+								<!--로그인 하러가기끝-->
+								
+								<!-- 폼데이터 -->
+								<form class="loginForm mt-4 text-start">
+									<!-- 아이디 -->
 									<div class="mb-3">
-										<label class="form-label">Enter email id</label>
+										<label class="form-label">아이디</label>
 										<input type="email" class="form-control">
 									</div>
-									<!-- Password -->
+									<!-- 아이디 -->
+									<!-- 비밀번호 -->
 									<div class="mb-3 position-relative">
-										<label class="form-label">Enter password</label>
+										<label class="form-label">비밀번호</label>
 										<input class="form-control fakepassword" type="password" id="psw-input">
 										<span class="position-absolute top-50 end-0 translate-middle-y p-0 mt-3">
 											<i class="fakepasswordicon fas fa-eye-slash cursor-pointer p-2"></i>
 										</span>
 									</div>
-									<!-- Confirm Password -->
+									<!-- 비밀번호 끝-->
+									<!-- 비밀번호확인 -->
 									<div class="mb-3">
-										<label class="form-label">Confirm Password</label>
+										<label class="form-label">비밀번호 확인</label>
 										<input type="password" class="form-control">
 									</div>
-									<!-- Remember me -->
+									<!-- 비밀번호확인 끝-->
+									<!-- 닉네임 -->
+									<div class="mb-3">
+										<label class="form-label">닉네임</label>
+										<input type="text" class="form-control">
+									</div>
+									<!-- 닉네임 끝-->
+									<!-- 출생년도 -->
+									<div class="mb-3">
+										<label class="form-label">출생 년도</label>
+										<select class="birth">
+											<option value="1996">1996</option>
+											<option value="1997">1997</option>
+										</select>
+									</div>
+									<!-- 출생년도 끝-->
+									<!-- 전화번호 -->
+									<div class="mb-3">
+										<label class="form-label">전화번호</label>
+										<input type="text" class="form-control">
+									</div>
+									<!-- 전화번호 끝 -->
+									<div class="mb-3">
+										<div class="row">
+											<!--이메일 -->
+											<div class="email-one col-12">
+												<label>이메일</label>
+											</div>
+											
+
+											<div class="col-4">
+												<input class="email-two" type="text" />
+											</div>
+											<div class="select-email col-6">
+												@
+												<select class="email_select" id="email_select" title="이메일 뒷자리 선택">
+													<option value=" google.com"> google.com</option>
+													<option value=" naver.com"> naver.com</option>
+													<option value=" daum.net"> daum.net</option>
+													<option value=" hanmail.net"> hanmail.net</option>
+													<option value=" gmail.com"> gmail.com</option>
+													<option value=" hotmail.com"> hotmail.com</option>
+													<option value=" dreamwiz.com"> dreamwiz.com</option>
+													<option value=" freechal.com"> freechal.com</option>
+													<option value=" hanmir.com"> hanmir.com</option>
+												</select>
+											</div>
+											<!--주소 끝-->
+										</div>
+									</div>
+												<!-- 주소 -->
+									<div class="mb-3">
+										<label class="form-label">주소</label>
+										<input type="address" class="form-control">
+									</div>
+
+									
+									<!-- 아이디 기억하기 -->
 									<div class="mb-3">
 										<input type="checkbox" class="form-check-input" id="rememberCheck">
-										<label class="form-check-label" for="rememberCheck">Keep me signed in</label>
+										<label class="form-check-label" for="rememberCheck">아이디 기억하기</label>
 									</div>
 									<!-- Button -->
-									<div><button type="submit" class="btn btn-primary w-100 mb-0">Sign up</button></div>
+									<div><button type="submit" class="btn btn-primary w-100 mb-0">회원가입</button></div>
 		
 									<!-- Divider -->
 									<div class="position-relative my-4">
 										<hr>
-										<p class="small position-absolute top-50 start-50 translate-middle bg-mode px-1 px-sm-2">Or sign in with</p>
+										<p class="small position-absolute top-50 start-50 translate-middle bg-mode px-1 px-sm-2">간편로그인</p>
 									</div>
 		
 									<!-- Google and facebook button -->
 									<div class="vstack gap-3">
-										<a href="#" class="btn btn-light mb-0"><i class="fab fa-fw fa-google text-google-icon me-2"></i>Sign in with Google</a>
-										<a href="#" class="btn btn-light mb-0"><i class="fab fa-fw fa-facebook-f text-facebook me-2"></i>Sign in with Facebook</a>
+										<a href="#" class="btn btn-light mb-0"><i class="fab fa-fw fa-google text-google-icon me-2"></i>구글 로그인</a>
+										<a href="#" class="btn btn-light mb-0"><img class="hi" src="assets/campongimg/btnW_아이콘사각.png"> 네이버 로그인</a>
+										
 									</div>
 		
 									<!-- Copyright -->
-									<p class="mb-0 mt-3 text-center">©2022 <a target="_blank" href="https://www.webestica.com/">Webestica.</a> All rights reserved</p>
+									<p class="mb-0 mt-3 text-center">©2023 <a target="_blank" href="https://www.webestica.com/">Campong</a> All rights reserved</p>
 								</form>
-								<!-- Form END -->
+								<!-- 폼끝 -->
 							</div>		
 						</div>
 					</div>

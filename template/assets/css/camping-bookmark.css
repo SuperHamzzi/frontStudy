@@ -1,0 +1,48 @@
+
+.order {
+    border-color:white;
+    background-color:rgb(86, 182, 86);
+    color:white;
+    border-radius:3px;
+}
+.jumun {
+    text-align: center;
+    width: 600px;
+    margin:auto;
+}
+.go-shopping {
+    width:200px;
+    height:50px;
+    background-color:white;
+    border:1px solid gray;
+}
+.go-order {
+    width:200px;
+    height:50px;
+    color:white;
+    background-color:#03c75a;
+    border: 1px solid gray;
+}
+.item {
+    padding-left:0xp;
+    padding-right:0px;
+    border:1px solid black;
+}
+.item-image {
+    width:274px;
+}
+.alll {
+    color:black;
+}
+.delete {
+    font-size:15px;
+    margin-top:5px;
+    height:25px;
+    background-color:red;
+    color:white;
+    border: 1px solid rgb(192, 140, 140);
+    margin-bottom:5px;
+}
+.check-all {
+    margin-left:3px;
+}
