@@ -24,12 +24,13 @@
     border: 1px solid gray;
 }
 .item {
-    padding-left:0xp;
+    padding-left : 0px;
     padding-right:0px;
-    border:1px solid black;
+    border:1px solid rgb(235, 223, 223);
+    width:254px;
 }
 .item-image {
-    width:274px;
+    width:253px;
 }
 .alll {
     color:black;
@@ -45,4 +46,20 @@
 }
 .check-all {
     margin-left:3px;
+}
+.item-box{
+    display:inline-block;
+}
+.goWatch {
+    text-align:center;
+    display:inline-block;
+    color:#03c75a
+}
+.btnGo {
+    margin-left:87px;
+    color:#03c75a;
+    border : 1px solid rgb(151, 148, 148);
+}
+.remove {
+    margin-right :25px;
 }
